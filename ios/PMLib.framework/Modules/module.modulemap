@@ -1,0 +1,6 @@
+framework module PMLib {
+  umbrella header "PMLib.h"
+
+  export *
+  module * { export * }
+}

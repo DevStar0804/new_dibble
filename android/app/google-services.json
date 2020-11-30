@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "252115356937",
+    "firebase_url": "https://dibble-app.firebaseio.com",
+    "project_id": "dibble-app",
+    "storage_bucket": "dibble-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252115356937:android:17344c48ee4b84ec0697d8",
+        "android_client_info": {
+          "package_name": "com.dibble.client"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252115356937-qi8ua7mo7t94gv85ogqskp89t4vatj3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPHN3heJ3FdSL9UrwYjTcpnOar4sIhHIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252115356937-qi8ua7mo7t94gv85ogqskp89t4vatj3o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "252115356937-0ogrteh7r1jv4usrqdgau12l4m0sl69j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dibble.client"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252115356937:android:383b6be5082950bf0697d8",
+        "android_client_info": {
+          "package_name": "com.dibble.courier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252115356937-qi8ua7mo7t94gv85ogqskp89t4vatj3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPHN3heJ3FdSL9UrwYjTcpnOar4sIhHIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252115356937-qi8ua7mo7t94gv85ogqskp89t4vatj3o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "252115356937-0ogrteh7r1jv4usrqdgau12l4m0sl69j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dibble.client"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

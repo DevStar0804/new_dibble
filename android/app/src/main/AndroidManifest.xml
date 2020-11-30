@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.dibble.client">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature
+            android:glEsVersion="0x00020000"
+            android:required="true"/>
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@drawable/dibble_icon"
+      android:roundIcon="@drawable/dibble_icon"
+      android:largeHeap="true"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+      <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+        android:exported="true"
+        android:launchMode="singleTask"
+        android:windowSoftInputMode="adjustResize">
+          <intent-filter android:label="@string/app_name">
+              <action android:name="android.intent.action.VIEW" />
+              <category android:name="android.intent.category.DEFAULT" />
+              <category android:name="android.intent.category.BROWSABLE" />
+              <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+              <data android:scheme="https"
+                  android:host="api.dibble.co.il"
+                  android:pathPrefix="/app/verification" />
+              <!-- note that the leading "/" is required for pathPrefix-->
+          </intent-filter>
+        <!-- <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter> -->
+      </activity>
+       <!-- add the following lines (use the theme you created at step 2) -->
+    <activity
+      android:name="com.zoontek.rnbootsplash.RNBootSplashActivity"
+      android:theme="@style/BootTheme"
+      android:launchMode="singleTask">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyAzj8tB61J_V073ZkpcUkIZ9OHi1Hg7ZiM"/>
+
+        <!-- You will also only need to add this uses-library tag -->
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>252115356937-0ogrteh7r1jv4usrqdgau12l4m0sl69j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.252115356937-0ogrteh7r1jv4usrqdgau12l4m0sl69j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCkSEL61d4_yo3I_6y2YUppX5PiB8ZjPE8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>252115356937</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dibble.client</string>
+	<key>PROJECT_ID</key>
+	<string>dibble-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dibble-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:252115356937:ios:0d7dd1cbbe4904710697d8</string>
+	<key>DATABASE_URL</key>
+	<string>https://dibble-app.firebaseio.com</string>
+</dict>
+</plist>
